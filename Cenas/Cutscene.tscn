@@ -1,0 +1,272 @@
+[gd_scene load_steps=31 format=2]
+
+[ext_resource path="res://Cenas/Cutscene.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/Sprites_cutcenes/c_01.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/Botoes/bt_menu/botao_proxima_cut.png" type="Texture" id=3]
+[ext_resource path="res://Fonts/GothamMedium_1.ttf" type="DynamicFontData" id=4]
+[ext_resource path="res://Sprites/Sprite_modal/modal_input.png" type="Texture" id=5]
+[ext_resource path="res://Sprites/Sprite_modal/fundo_modal_escurecido.png" type="Texture" id=6]
+[ext_resource path="res://Sprites/Botoes/bt_jogo/botao_confirmar_quiz.png" type="Texture" id=7]
+[ext_resource path="res://Sprites/Botoes/bt_jogo/botao_confirmar_quiz_hover.png" type="Texture" id=8]
+[ext_resource path="res://Sprites/Botoes/bt_menu/botao_proxima_cut_hover.png" type="Texture" id=9]
+[ext_resource path="res://Cenas/Node2D.gd" type="Script" id=10]
+[ext_resource path="res://Sprites/Botoes/bt_jogo/botao_pause_hover.png" type="Texture" id=11]
+[ext_resource path="res://Sprites/Botoes/bt_jogo/botao_pause.png" type="Texture" id=12]
+[ext_resource path="res://sons/som_ambiente.wav" type="AudioStream" id=13]
+[ext_resource path="res://Sprites/Sprite_modal/modal_ajustes.png" type="Texture" id=14]
+[ext_resource path="res://Sprites/Botoes/bt_jogo/botao_ajustes_voltar_jogo.png" type="Texture" id=15]
+[ext_resource path="res://Sprites/Botoes/bt_menu/botao_ajustes_aplicar_.png" type="Texture" id=16]
+[ext_resource path="res://Sprites/Botoes/bt_jogo/botao_ajustes_sair_.png" type="Texture" id=17]
+[ext_resource path="res://Sprites/Botoes/bt_menu/botao_ajustes_aplicar_hover.png" type="Texture" id=18]
+[ext_resource path="res://Sprites/Botoes/bt_menu/botao_ajustes_efeitos_on.png" type="Texture" id=19]
+[ext_resource path="res://Sprites/Botoes/bt_menu/botao_ajustes_som_on.png" type="Texture" id=21]
+[ext_resource path="res://Sprites/Botoes/bt_jogo/botao_ajustes_sair_hover.png" type="Texture" id=22]
+[ext_resource path="res://Sprites/Sprite_modal/modal_menu_jogo.png" type="Texture" id=23]
+[ext_resource path="res://Sprites/Botoes/bt_jogo/botao_cancelar_sair_menu.png" type="Texture" id=24]
+[ext_resource path="res://Sprites/Botoes/bt_jogo/botao_cancelar_sair_menu_hover.png" type="Texture" id=25]
+[ext_resource path="res://Cenas/modal_sair_cut.gd" type="Script" id=26]
+[ext_resource path="res://Sprites/Botoes/bt_jogo/botao_confirmar_sair_menu.png" type="Texture" id=27]
+[ext_resource path="res://Sprites/Botoes/bt_jogo/botao_confirmar_sair_menu_hover.png" type="Texture" id=28]
+
+[sub_resource type="DynamicFont" id=1]
+size = 24
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxEmpty" id=2]
+
+[sub_resource type="DynamicFont" id=3]
+size = 24
+font_data = ExtResource( 4 )
+
+[node name="Cutscene" type="Node2D"]
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_horizontal_guides_": [ 378.276, 411.976, 208.609, 247.809, 564.62, 610.8, 510.428, 463.009 ],
+"_edit_vertical_guides_": [ 423.105, 660.962, 331.724, 276.724, 805.0, 749.833 ]
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 540, 360 )
+texture = ExtResource( 2 )
+
+[node name="TextureButton" type="TextureButton" parent="."]
+margin_left = 889.0
+margin_top = 642.0
+margin_right = 1067.0
+margin_bottom = 704.0
+texture_normal = ExtResource( 3 )
+texture_hover = ExtResource( 9 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="bt_pause" type="TextureButton" parent="."]
+margin_left = 24.0
+margin_top = 30.0
+margin_right = 53.0
+margin_bottom = 57.0
+texture_normal = ExtResource( 12 )
+texture_hover = ExtResource( 11 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 291.0
+margin_top = 441.0
+margin_right = 810.0
+margin_bottom = 585.0
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0.984314, 0.980392, 0.980392, 1 )
+align = 1
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="input" type="Node2D" parent="."]
+visible = false
+
+[node name="controle" type="Button" parent="input"]
+margin_right = 1079.0
+margin_bottom = 723.0
+focus_mode = 0
+enabled_focus_mode = 0
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="input"]
+position = Vector2( 544.615, 357.737 )
+texture = ExtResource( 6 )
+
+[node name="Sprite2" type="Sprite" parent="input"]
+position = Vector2( 545.019, 325.065 )
+texture = ExtResource( 5 )
+
+[node name="LineEdit" type="LineEdit" parent="input"]
+margin_left = 326.0
+margin_top = 295.0
+margin_right = 759.0
+margin_bottom = 363.0
+focus_mode = 1
+custom_styles/normal = SubResource( 2 )
+custom_fonts/font = SubResource( 3 )
+custom_colors/selection_color = Color( 0, 0, 0, 1 )
+custom_colors/cursor_color = Color( 0, 0, 0, 1 )
+custom_colors/clear_button_color_pressed = Color( 0, 0, 0, 1 )
+custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
+custom_colors/font_color = Color( 0.831373, 0.666667, 0, 1 )
+custom_colors/clear_button_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_uneditable = Color( 0, 0, 0, 1 )
+align = 1
+placeholder_text = "Digite aqui"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="TextureButton" parent="input"]
+margin_left = 458.0
+margin_top = 401.0
+margin_right = 636.0
+margin_bottom = 463.0
+texture_normal = ExtResource( 7 )
+texture_hover = ExtResource( 8 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="modal_pause" type="Node2D" parent="."]
+visible = false
+script = ExtResource( 10 )
+
+[node name="controle" type="Button" parent="modal_pause"]
+margin_right = 1079.0
+margin_bottom = 723.0
+focus_mode = 0
+enabled_focus_mode = 0
+flat = true
+
+[node name="Sprite" type="Sprite" parent="modal_pause"]
+position = Vector2( 540, 360 )
+texture = ExtResource( 6 )
+
+[node name="Sprite2" type="Sprite" parent="modal_pause"]
+position = Vector2( 540, 360 )
+texture = ExtResource( 14 )
+
+[node name="musica" type="TextureButton" parent="modal_pause"]
+margin_left = 490.5
+margin_top = 240.752
+margin_right = 589.5
+margin_bottom = 339.752
+texture_normal = ExtResource( 21 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="efeitos" type="TextureButton" parent="modal_pause"]
+margin_left = 490.5
+margin_top = 405.346
+margin_right = 589.5
+margin_bottom = 504.346
+texture_normal = ExtResource( 19 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="aplicar" type="TextureButton" parent="modal_pause"]
+margin_left = 577.466
+margin_top = 513.737
+margin_right = 755.466
+margin_bottom = 575.737
+texture_normal = ExtResource( 16 )
+texture_hover = ExtResource( 18 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="sair" type="TextureButton" parent="modal_pause"]
+margin_left = 328.923
+margin_top = 513.737
+margin_right = 504.923
+margin_bottom = 574.737
+texture_normal = ExtResource( 17 )
+texture_hover = ExtResource( 22 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="voltar" type="TextureButton" parent="modal_pause"]
+margin_left = 505.0
+margin_top = 576.376
+margin_right = 575.0
+margin_bottom = 646.376
+texture_normal = ExtResource( 15 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="modal_sair" type="Node2D" parent="."]
+visible = false
+script = ExtResource( 26 )
+
+[node name="Button" type="Button" parent="modal_sair"]
+margin_right = 1090.0
+margin_bottom = 715.0
+focus_mode = 0
+enabled_focus_mode = 0
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="modal_sair"]
+position = Vector2( 543.246, 363.258 )
+texture = ExtResource( 6 )
+region_rect = Rect2( 540, 360, 0, 0 )
+
+[node name="Sprite2" type="Sprite" parent="modal_sair"]
+position = Vector2( 540, 360 )
+texture = ExtResource( 23 )
+
+[node name="cancelar" type="TextureButton" parent="modal_sair"]
+margin_left = 322.271
+margin_top = 412.065
+margin_right = 500.271
+margin_bottom = 475.065
+texture_normal = ExtResource( 24 )
+texture_hover = ExtResource( 25 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="confirmar" type="TextureButton" parent="modal_sair"]
+margin_left = 576.033
+margin_top = 412.121
+margin_right = 754.033
+margin_bottom = 475.121
+texture_normal = ExtResource( 27 )
+texture_hover = ExtResource( 28 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer" parent="."]
+process_priority = 1
+stream = ExtResource( 13 )
+volume_db = -20.0
+autoplay = true
+[connection signal="button_up" from="TextureButton" to="." method="bt_cut_pressionado"]
+[connection signal="button_up" from="bt_pause" to="modal_pause" method="_on_bt_pause_button_up"]
+[connection signal="button_up" from="input/Button" to="." method="_on_Button_button_up"]
+[connection signal="modal_sair" from="modal_pause" to="modal_sair" method="_on_modal_pause_modal_sair"]
+[connection signal="button_up" from="modal_pause/musica" to="modal_pause" method="_on_musica_button_up"]
+[connection signal="button_up" from="modal_pause/efeitos" to="modal_pause" method="_on_efeitos_button_up"]
+[connection signal="button_up" from="modal_pause/aplicar" to="modal_pause" method="_on_aplicar_button_up"]
+[connection signal="button_up" from="modal_pause/sair" to="modal_pause" method="_on_sair_button_up"]
+[connection signal="button_up" from="modal_pause/voltar" to="modal_pause" method="_on_voltar_button_up"]
+[connection signal="button_up" from="modal_sair/cancelar" to="modal_sair" method="_on_cancelar_button_up"]
+[connection signal="button_up" from="modal_sair/confirmar" to="modal_sair" method="_on_confirmar_button_up"]
