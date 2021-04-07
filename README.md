@@ -52,24 +52,30 @@ Sobre o jogo: O jogo Brincando de ser Chico trata-se de um jogo de tabuleiro vol
 
 ## Funções de saída:
 
-- [x] RF_S1- Mostrar cutscenes explicativas no início do jogo a respeito do artista.-Codificado
+- [x] RF_S1- Mostrar cutscenes explicativas no início do jogo a respeito do artista.
+   - Cdificado - Cena: Cutscene.tscn, script geral da cena
+- [x] RF_S2- Mostrar caixas de diálogo nas cutscenes que contarão a história do artista.
+   - Cdificado - Cena: Cutscene.tscn, script geral da cena
+- [x] RF_S3- Mostrar informações da casa do tabuleiro caso o usuário caia em uma casa de informação.
+     - Codificado - Cena: Main.tscn, script node infor
+   
+- [x] RF_S4- Receber bônus na casa do tabuleiro caso o usuário caia em uma casa de recompensa.
+     - Codificado - Cena: Main.tscn, script node recompensa
 
-- [x] RF_S2- Mostrar caixas de diálogo nas cutscenes que contarão a história do artista. -Codificado
+- [x] RF_S5- Realizar Quiz na casa do tabuleiro caso o usuário caia em uma casa de quiz.
+     - Codificado - Cena: Main.tscn, script node quiz
 
-- [x] RF_S3- Mostrar informações da casa do tabuleiro caso o usuário caia em uma casa de informação. -Codificado
+- [x] RF_S6- Receber feedback sobre a resposta ao quiz na casa do tabuleiro.
+     - Codificado - Cena: Main.tscn, script node quiz
+     
+- [x] RF_S7- Retornar para a casa onde o jogador se encontrava antes de girar o dado novamente e errar a escolha no quiz.
+     - Codificado - Cena: Main.tscn, script node quiz e script node pino
 
-- [x] RF_S4- Receber bônus na casa do tabuleiro caso o usuário caia em uma casa de recompensa.-Codificado
+- [x] RF_S8- Avançar casas no tabuleiro conforme o número sorteado no dado.
+     - Codificado - Cena: Main.tscn, script node dado e script node pino
 
-- [x] RF_S5- Realizar Quiz na casa do tabuleiro caso o usuário caia em uma casa de quiz.-Codificado
-
-- [x] RF_S6- Receber feedback sobre a resposta ao quiz na casa do tabuleiro.-Codificado
-
-- [x] RF_S7- Retornar para a casa onde o jogador se encontrava antes de girar o dado novamente e errar a escolha no quiz. -Codificado
-
-- [x] RF_S8- Avançar casas no tabuleiro conforme o número sorteado no dado. -Codificado
-
-- [x] RF_S9- Receber o feedback do resultado do dado. -Codificado
-
+- [x] RF_S9- Receber o feedback do resultado do dado. 
+   - Codificado - Cena: Main.tscn, script node dado
 
 
 
