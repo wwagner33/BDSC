@@ -15,6 +15,7 @@ Sobre o jogo: O jogo Brincando de ser Chico trata-se de um jogo de tabuleiro vol
 
 - [x] RF_B1 - Adicionar o  nome do jogador no início do jogo.
   - Codificado - Cena: Cutscene.tscn, script geral da cena.
+  
 - [x] RF_B2- Armazenar o nome do jogador durante a execução do jogo. 
    - Codificado - Cena: Cutscene.tscn, script geral da cena.
 
@@ -54,8 +55,10 @@ Sobre o jogo: O jogo Brincando de ser Chico trata-se de um jogo de tabuleiro vol
 
 - [x] RF_S1- Mostrar cutscenes explicativas no início do jogo a respeito do artista.
    - Cdificado - Cena: Cutscene.tscn, script geral da cena
+   -
 - [x] RF_S2- Mostrar caixas de diálogo nas cutscenes que contarão a história do artista.
    - Cdificado - Cena: Cutscene.tscn, script geral da cena
+   
 - [x] RF_S3- Mostrar informações da casa do tabuleiro caso o usuário caia em uma casa de informação.
      - Codificado - Cena: Main.tscn, script node infor
    
