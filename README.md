@@ -13,7 +13,8 @@ Sobre o jogo: O jogo Brincando de ser Chico trata-se de um jogo de tabuleiro vol
 ## Funções básicas:
 
 
-- [x] RF_B1 - Adicionar o  nome do jogador no início do jogo.- codificado - Cena : Cutscene, script geral da cena
+- [x] RF_B1 - Adicionar o  nome do jogador no início do jogo.
+  - codificado - Cena : Cutscene, script geral da cena
 - [x] RF_B2- Armazenar o nome do jogador durante a execução do jogo. -codificado - Cena : Cutscene, script geral da cena 
 
 ## Funções fundamentais:
