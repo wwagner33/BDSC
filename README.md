@@ -14,30 +14,41 @@ Sobre o jogo: O jogo Brincando de ser Chico trata-se de um jogo de tabuleiro vol
 
 
 - [x] RF_B1 - Adicionar o  nome do jogador no início do jogo.
-  - codificado - Cena : Cutscene, script geral da cena
-- [x] RF_B2- Armazenar o nome do jogador durante a execução do jogo. -codificado - Cena : Cutscene, script geral da cena 
+  - Codificado - Cena: Cutscene.tscn, script geral da cena.
+- [x] RF_B2- Armazenar o nome do jogador durante a execução do jogo. 
+   -Codificado - Cena: Cutscene.tscn, script geral da cena.
 
 ## Funções fundamentais:
 
-- [x] RF_F1- Percorrer o tabuleiro baseado no número sorteado pelo dado.-codificado
+- [x] RF_F1- Percorrer o tabuleiro baseado no número sorteado pelo dado.
+    -Codificado - Cena: Main.tscn, script node Dado e script node pino.
 
-- [x] RF_F2- Sair do jogo. -codificado
+- [x] RF_F2- Sair do jogo. 
+     -Codificado - Cena: MainScene.tscn, script node modal_sair.
 
-- [x] RF_F3- Pausar o jogo durante sua execução. -codificado/ Script se encontra na Cena Cutc
+- [x] RF_F3- Pausar o jogo durante sua execução. 
+    -Codificado - Cena: Main.tscn, script node ajustes.
 
-- [x] RF_F4- Retornar ao jogo após este ser -codificado
+- [x] RF_F4- Retornar ao jogo após este ser pausado.
+    -Codificado - Cena: Main.tscn, script node ajustes.
 
-- [x] RF_F5- Voltar ao menu após o jogo ser pausado.-codificado
+- [x] RF_F5- Voltar ao menu após o jogo ser pausado.
+    -Codificado - Cena: Main.tscn, script node ajustes.
 
-- [x] RF_F6- Selecionar uma das três opções de resposta a pergunta feita no quiz -codificado
+- [x] RF_F6- Selecionar uma das três opções de resposta a pergunta feita no quiz
+    -Codificado - Cena: Main.tscn, script node quiz
+   
+- [x] RF_F7- Confirmar a escolha da opção de resposta selecionada para a questão do quiz.
+    -Codificado - Cena: Main.tscn, script node quiz
 
-- [x] RF_F7- Confirmar a escolha da opção de resposta selecionada para a questão do quiz.-codificado
+- [x] RF_F8- Jogar dado para sorteio do número que definirá o avanço do jogador no tabuleiro.
+      -Codificado - Cena: Main.tscn, script node dado
 
-- [x] RF_F8- Jogar dado para sorteio do número que definirá o avanço do jogador no tabuleiro. -codificado
+- [x] RF_F9- Sorteio do número internamente após o clique no dado.
+   -Codificado - Cena: Main.tscn, script node dado
 
-- [x] RF_F9- Sorteio do número internamente após o clique no dado. -codificado
-
-- [x] RF_F10- Registro das casas já visitadas no tabuleiro. -codificado
+- [x] RF_F10- Registro das casas já visitadas no tabuleiro.
+    -Codificado - Cena: Main.tscn, script node pino
 
 ## Funções de saída:
 
