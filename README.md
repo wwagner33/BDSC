@@ -7,7 +7,7 @@ Clientes: Bolsa MAUC: Thaina da Silva Mota (Bolsista),Saulo Moreno Rocha(Orienta
 
 Sobre o jogo: O jogo Brincando de ser Chico trata-se de um jogo de tabuleiro voltado para o público do fundamental II e ensino médio que ensina a respeito do artista Chico da Silva de forma lúdica, trazendo aspectos da vida do artista e suas obras em cutscenes, quizzes, textos informativos e cartas de recompensa.
  
-Requisitos Funcionais:
+###Requisitos Funcionais:
 Funções básicas:
 RF_B1 - Adicionar o  nome do jogador no início do jogo.- codificado
 RF_B2- Armazenar o nome do jogador durante a execução do jogo.-codificado
