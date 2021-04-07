@@ -30,10 +30,10 @@ Sobre o jogo: O jogo Brincando de ser Chico trata-se de um jogo de tabuleiro vol
     - Codificado - Cena: Main.tscn, script node ajustes.
 
 - [x] RF_F4- Retornar ao jogo após este ser pausado.
-    -Codificado - Cena: Main.tscn, script node ajustes.
+    - Codificado - Cena: Main.tscn, script node ajustes.
 
 - [x] RF_F5- Voltar ao menu após o jogo ser pausado.
-    -Codificado - Cena: Main.tscn, script node ajustes.
+    - Codificado - Cena: Main.tscn, script node ajustes.
 
 - [x] RF_F6- Selecionar uma das três opções de resposta a pergunta feita no quiz
     - Codificado - Cena: Main.tscn, script node quiz
