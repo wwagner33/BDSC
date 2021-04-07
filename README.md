@@ -1,15 +1,17 @@
 # BDSC
 
-Jogo: Brincando de Ser Chico
-Equipe : Alice Fortes Pereira, Arthur Antunes Rangel da Silva, Atyla Freire Torres, Fernando Henrique de Sousa Campos, Luís Guilherme da Silva, Rafael Queiroz Monteiro.
+# Jogo Brincando de Ser Chico
+## Equipe
+  - Alice Fortes Pereira, Arthur Antunes Rangel da Silva, Atyla Freire Torres, Fernando Henrique de Sousa Campos, Luís Guilherme da Silva, Rafael Queiroz Monteiro.
 
-Clientes: Bolsa MAUC: Thaina da Silva Mota (Bolsista),Saulo Moreno Rocha(Orientador).
+## Clientes
+ - Bolsa MAUC: Thaina da Silva Mota (Bolsista),Saulo Moreno Rocha(Orientador).
 
-Sobre o jogo: O jogo Brincando de ser Chico trata-se de um jogo de tabuleiro voltado para o público do fundamental II e ensino médio que ensina a respeito do artista Chico da Silva de forma lúdica, trazendo aspectos da vida do artista e suas obras em cutscenes, quizzes, textos informativos e cartas de recompensa.
- 
- Todos os Scripts se encontram na parte 
-# Requisitos Funcionais:
-### Todos os scripts encontram-se na pasta Cenas
+## Sobre o jogo
+ - O jogo Brincando de ser Chico trata-se de um jogo de tabuleiro voltado para o público do fundamental II e ensino médio que ensina a respeito do artista Chico da Silva de forma lúdica, trazendo aspectos da vida do artista e suas obras em cutscenes, quizzes, textos informativos e cartas de recompensa.
+
+## Requisitos Funcionais:
+#### Todos os scripts encontram-se na pasta Cenas
 ## Funções básicas:
 
 
