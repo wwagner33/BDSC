@@ -9,6 +9,17 @@ Sobre o jogo: O jogo Brincando de ser Chico trata-se de um jogo de tabuleiro vol
  
 ### Requisitos Funcionais:
 ### Funções básicas:
+
+- [ ] Mercury
+- [x] Venus
+- [x] Earth (Orbit/Moon)
+- [x] Mars
+- [ ] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptune
+- [ ] Comet Haley
+
 -[x] RF_B1 - Adicionar o  nome do jogador no início do jogo.- codificado
 RF_B2- Armazenar o nome do jogador durante a execução do jogo.-codificado
 Funções fundamentais:
