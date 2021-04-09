@@ -1,4 +1,5 @@
-
+#executavel do projeto
+bin
 # Godot-specific ignores
 .import/
 export.cfg
